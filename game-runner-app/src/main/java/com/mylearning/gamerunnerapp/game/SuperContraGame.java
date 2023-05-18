@@ -1,6 +1,6 @@
 package com.mylearning.gamerunnerapp.game;
 
-public class SuperContraGame {
+public class SuperContraGame implements GamingConsole {
     public void up() {
         System.out.println("SuperContraGame up");
     }

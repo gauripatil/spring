@@ -2,9 +2,9 @@ package com.mylearning.gamerunnerapp.game;
 
 public class GameRunner {
 
-    private SuperContraGame game;
+    private GamingConsole game;
     // GameRunner is tightly coupled to SuperCOntraGame now.
-    public GameRunner(SuperContraGame game) {
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 
