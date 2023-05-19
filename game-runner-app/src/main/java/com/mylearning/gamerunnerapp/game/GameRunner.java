@@ -1,7 +1,12 @@
 package com.mylearning.gamerunnerapp.game;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
 
+    @Autowired
     private GamingConsole game;
     // GameRunner is tightly coupled to SuperCOntraGame now.
     public GameRunner(GamingConsole game) {
