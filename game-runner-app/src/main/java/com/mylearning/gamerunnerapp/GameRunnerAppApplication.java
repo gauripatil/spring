@@ -1,6 +1,6 @@
 package com.mylearning.gamerunnerapp;
 
-import com.mylearning.gamerunnerapp.example.MyWebController;
+import com.mylearning.gamerunnerapp.example.web.MyWebController;
 import com.mylearning.gamerunnerapp.game.GameRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
