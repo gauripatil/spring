@@ -1,9 +1,7 @@
 package com.mylearning.gamerunnerapp;
 
+import com.mylearning.gamerunnerapp.example.MyWebController;
 import com.mylearning.gamerunnerapp.game.GameRunner;
-import com.mylearning.gamerunnerapp.game.MarioGame;
-import com.mylearning.gamerunnerapp.game.PacManGame;
-import com.mylearning.gamerunnerapp.game.SuperContraGame;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -29,6 +27,9 @@ public class GameRunnerAppApplication {
 		ConfigurableApplicationContext context = SpringApplication.run(GameRunnerAppApplication.class, args);
 		GameRunner runner1 = context.getBean(GameRunner.class);
 		runner1.run();
+
+		MyWebController bean = context.getBean(MyWebController.class);
+		System.out.println(bean.returnValueFromBusineesService());
 	}
 
 }
