@@ -48,4 +48,22 @@ public class GameRunnerAppApplication {
  *  	4.2.1 Types: ApplicationContext(complex), BeanFactory(simple, rarely used)
  *  4.3 Autowiring: Process of wiring in dependencies for Spring Bean
  *
+ *
+ *
+ *
+ *
+ * =====================================================
+ *
+ * MAVEN - manages jar needed by application
+ * all configuration in pom.xml
+ * maven artifacts identified by groupId & artifactId
+ * Important features:
+ * 1. Defines a simple project setup that follows best practices
+ * 2. Enables consistent usage across all projects
+ * 3. Manages dependency updates and transitive dependencies
+ * Terminology Warning - Spring dependency vs Maven dependency
+ *
+ *
+ *
+ *
  */
