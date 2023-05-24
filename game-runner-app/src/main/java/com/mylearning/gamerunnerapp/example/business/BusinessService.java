@@ -9,8 +9,14 @@ import java.util.List;
 
 @Component
 public class BusinessService {
-    @Autowired
+
     private DataService dataService;
+
+    @Autowired
+    public void setDataService(DataService dataService) {
+        System.out.println("Setter Injection");
+        this.dataService = dataService;
+    }
 
     public long calculateSum() {
         List<Integer> data = dataService.getData();

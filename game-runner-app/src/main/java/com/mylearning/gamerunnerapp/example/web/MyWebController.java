@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MyWebController {
+    // Field Injection
     @Autowired
     private BusinessService businessService;
     public long returnValueFromBusineesService () {

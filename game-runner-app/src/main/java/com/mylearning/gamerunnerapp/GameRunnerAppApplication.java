@@ -64,6 +64,27 @@ public class GameRunnerAppApplication {
  * Terminology Warning - Spring dependency vs Maven dependency
  *
  *
+ * Spring dependency injection types
+ * Constructor based - Dependencies are set by creating bean using constructors
+ * Setter-based - Dependencies are set by calling setter methods on your beans
+ * Field based - No setter / constructor. Dependencies are set by reflection
+ * Spring team recommends Constructor based injection as dependencies are automatically set
+ * when object is created
  *
+ * Spring Modules  -
+ * Core - IoC container etc
+ * Testing - Mock objects, Spring MVC Test etc
+ * Data Access - Transactions, JDBC, JPA etc
+ * Web Servlet - Spring MVC etc
+ * Web Reactive - Spring WebFlux
+ * Integration - Spring JMS etc
+ *
+ * Spring Projects -
+ * Spring keeps evolving (REST API -> Microservices -> Cloud)
+ * Spring Boot - Most popular framework to build microservices
+ * Spring Cloud - Build cloud native applications
+ * Spring Data - Integrate with the same way with different databases - NoSQL / Relational
+ * Spring Integration - Address challenges with integration with other applications
+ * Spring Security - Secure your application or REST API or microservices
  *
  */

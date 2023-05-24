@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class GameRunner {
 
+    // Constructor based injection
     @Autowired
     private GamingConsole game;
     // GameRunner is tightly coupled to SuperCOntraGame now.
