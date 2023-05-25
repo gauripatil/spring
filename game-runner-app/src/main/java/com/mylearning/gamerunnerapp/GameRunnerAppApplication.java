@@ -87,4 +87,22 @@ public class GameRunnerAppApplication {
  * Spring Integration - Address challenges with integration with other applications
  * Spring Security - Secure your application or REST API or microservices
  *
+ *
+ * World before Spring boot
+ * 1. Dependency management (pom.xml)
+ * 		Manage frameworks and versions
+ * 		REST API - Spring framework, Spring MVC framework, JSON binding framework
+ * 		Unit test - Spring Test, Mockito, JUnit
+ * 2. Define web application configuration (web.xml)
+ * 		example - Configure DispatcherServelet for Spring MVC
+ * 3. Manage spring beans Spring Configuration (context.xml)
+ * 		Define your Spring Configuration
+ * 		1. Component Scan
+ * 		2. View resolver - in case of web application
+ * 		3. Data source - data related application
+ * 4. NFRs Non Function Requirement -
+ * 		1. Logging
+ * 		2. Error handling
+ * 		3. Monitoring
+ *
  */
